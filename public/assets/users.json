@@ -1,0 +1,32 @@
+[
+  {
+    "username": "moderateur",
+    "password": "123",
+    "type": "MODERATOR"
+  },
+  {
+    "username": "client",
+    "password": "123",
+    "type": "CLIENT"
+  },
+  {
+    "username": "user1",
+    "password": "123",
+    "type": "OBSERVER"
+  },
+  {
+    "username": "user2",
+    "password": "123",
+    "type": "OBSERVER"
+  },
+  {
+    "username": "user3",
+    "password": "123",
+    "type": "OBSERVER"
+  },
+  {
+    "username": "user4",
+    "password": "123",
+    "type": "OBSERVER"
+  }
+]
