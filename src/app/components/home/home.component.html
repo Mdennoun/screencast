@@ -1,0 +1,41 @@
+<p>
+  <a [routerLink]="['/moderator']">Je suis modérateur</a>
+</p>
+
+<p>
+  <a [routerLink]="['/client']">Je suis client</a>
+</p>
+
+<p>
+  <a [routerLink]="['/observer']">Je suis observateur</a>
+</p>
+
+<div class="login-form col-md-6 offset-md-3 align-center">
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+    <div class="form-group">
+      <label for="username">Nom du compte</label>
+      <input
+        type="text"
+        class="form-control"
+        id="username"
+        formControlName="username"
+        autocomplete="on"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="password">Mot de passe</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        formControlName="password"
+        autocomplete="on"
+      />
+    </div>
+
+    <div class="text-center">
+      <input class="btn btn-primary" type="submit" value="Connexion" />
+    </div>
+  </form>
+</div>
