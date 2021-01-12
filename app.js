@@ -6,9 +6,9 @@ const express = require("express");
 const app = express();
 {
   // Angular build sits in /public
-  app.use(express.static(__dirname + "/public"));
+  app.use(express.static(__dirname));
   app.use("*", (req, res) => {
-    res.sendFile(__dirname + "/public/index.html");
+    res.sendFile(__dirname + "index.html");
   });
 }
 
